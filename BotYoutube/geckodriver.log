@@ -1,0 +1,89 @@
+1729358345157	geckodriver	INFO	Listening on 127.0.0.1:49663
+1729358348235	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileMAdlhK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1729358348755	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1729358348915	Marionette	INFO	Listening on port 49679
+Read port: 49679
+1729358349048	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.botcity.dev/, line 35: ReferenceError: Weglot is not defined
+JavaScript error: https://www.botcity.dev/, line 65: ReferenceError: $ is not defined
+JavaScript error: https://herotofutags.com/sticky/v1.js, line 1: TypeError: window.herotofu is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js, line 16: Error: [MixItUp] An invalid selector or element reference was passed to the mixitup factory function
+JavaScript error: https://www.botcity.dev/, line 337: SyntaxError: redeclaration of const containerEl
+1729358353656	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://pt-br.botcity.dev/, line 36: ReferenceError: Weglot is not defined
+JavaScript error: https://pt-br.botcity.dev/, line 66: ReferenceError: $ is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js, line 16: Error: [MixItUp] An invalid selector or element reference was passed to the mixitup factory function
+JavaScript error: https://pt-br.botcity.dev/, line 336: SyntaxError: redeclaration of const containerEl
+JavaScript error: https://herotofutags.com/sticky/v1.js, line 1: TypeError: window.herotofu is undefined
+1729358360889	Marionette	INFO	Stopped listening on port 49679
+JavaScript warning: https://cdn.prod.website-files.com/6487203eebdb29c0fff6af27/js/webflow.0dec577a3.js, line 23: Script terminated by timeout at:
+jve@https://cdn.prod.website-files.com/6487203eebdb29c0fff6af27/js/webflow.0dec577a3.js:23:365239
+aa@https://cdn.prod.website-files.com/6487203eebdb29c0fff6af27/js/webflow.0dec577a3.js:23:345490
+lme@https://cdn.prod.website-files.com/6487203eebdb29c0fff6af27/js/webflow.0dec577a3.js:23:343850
+ame@https://cdn.prod.website-files.com/6487203eebdb29c0fff6af27/js/webflow.0dec577a3.js:23:343290
+kD@https://cdn.prod.website-files.com/6487203eebdb29c0fff6af27/js/webflow.0dec577a3.js:23:389283
+c@https://cdn.prod.website-files.com/6487203eebdb29c0fff6af27/js/webflow.0dec577a3.js:23:339462
+h@https://cdn.prod.website-files.com/6487203eebdb29c0fff6af27/js/webflow.0dec577a3.js:23:298733
+r@https://cdn.prod.website-files.com/6487203eebdb29c0fff6af27/js/webflow.0dec577a3.js:23:381254
+
+Dynamically enable window occlusion 1
+1729358577926	geckodriver	INFO	Listening on 127.0.0.1:49787
+1729358580975	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileKHxUdj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1729358581253	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1729358581386	Marionette	INFO	Listening on port 49797
+Read port: 49797
+1729358581505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1729358590322	Marionette	INFO	Stopped listening on port 49797
+JavaScript warning: https://www.youtube.com/s/desktop/ee1428e3/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 1349: Script terminated by timeout at:
+zj/<@https://www.youtube.com/s/desktop/ee1428e3/jsbin/desktop_polymer.vflset/desktop_polymer.js:1349:47
+
+JavaScript error: https://www.youtube.com/@pythonbrasiloficial, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@pythonbrasiloficial, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@pythonbrasiloficial, line 12: TypeError: can't access dead object
+JavaScript error: https://www.google.com/js/th/254vBlaqPaqXevzuPkAUc1wSZPyrWvrJiIHmf6_oW1o.js line 2 > eval, line 7543: TypeError: can't access dead object
+JavaScript error: https://www.google.com/js/th/254vBlaqPaqXevzuPkAUc1wSZPyrWvrJiIHmf6_oW1o.js line 2 > eval, line 2263: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.youtube.com/@pythonbrasiloficial, line 12: TypeError: can't access dead object
+1729358786920	geckodriver	INFO	Listening on 127.0.0.1:49909
+1729358790008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofile3hXcdu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1729358790287	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1729358790420	Marionette	INFO	Listening on port 49919
+Read port: 49919
+1729358790539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1729358805526	Marionette	INFO	Stopped listening on port 49919
+JavaScript warning: https://www.youtube.com/s/player/e627e516/player_ias.vflset/pt_BR/base.js, line 8397: Script terminated by timeout at:
+g.k.isActive@https://www.youtube.com/s/player/e627e516/player_ias.vflset/pt_BR/base.js:8397:42
+g.k.stop@https://www.youtube.com/s/player/e627e516/player_ias.vflset/pt_BR/base.js:8396:26
+g.k.start@https://www.youtube.com/s/player/e627e516/player_ias.vflset/pt_BR/base.js:8395:28
+xP.prototype.Ta@https://www.youtube.com/s/player/e627e516/player_ias.vflset/pt_BR/base.js:10158:223
+g.k.mW@https://www.youtube.com/s/player/e627e516/player_ias.vflset/pt_BR/base.js:8398:44
+
+JavaScript error: https://www.youtube.com/@pythonbrasiloficial, line 12: TypeError: can't access dead object
+JavaScript error: https://www.google.com/js/th/254vBlaqPaqXevzuPkAUc1wSZPyrWvrJiIHmf6_oW1o.js line 2 > eval, line 5738: TypeError: can't access dead object
+JavaScript error: https://www.google.com/js/th/254vBlaqPaqXevzuPkAUc1wSZPyrWvrJiIHmf6_oW1o.js line 2 > eval, line 3456: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.youtube.com/@pythonbrasiloficial, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@pythonbrasiloficial, line 12: TypeError: can't access dead object
+1729358856103	geckodriver	INFO	Listening on 127.0.0.1:49980
+1729358859167	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileBciXnT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1729358859440	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1729358859570	Marionette	INFO	Listening on port 49990
+Read port: 49990
+1729358859613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1729358877614	Marionette	INFO	Stopped listening on port 49990
+JavaScript error: https://www.google.com/js/th/254vBlaqPaqXevzuPkAUc1wSZPyrWvrJiIHmf6_oW1o.js line 2 > eval, line 3382: TypeError: can't access dead object
+JavaScript error: https://www.google.com/js/th/254vBlaqPaqXevzuPkAUc1wSZPyrWvrJiIHmf6_oW1o.js line 2 > eval, line 4943: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.youtube.com/@pythonbrasiloficial, line 12: TypeError: can't access dead object
