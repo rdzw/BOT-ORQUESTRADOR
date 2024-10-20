@@ -39,8 +39,6 @@ def main():
         
         # Extrair os produtos da estrutura JSON
         produtos = dados['load']['products']    
-
-        # Implement here your logic...
         
         # Abre o aplicativo do bloco de notas.
         bot.execute(r"C:\Program Files\Fakturama2\Fakturama.exe")
