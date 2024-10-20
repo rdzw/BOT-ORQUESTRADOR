@@ -45,16 +45,40 @@ def main():
         # Abre o aplicativo do bloco de notas.
         bot.execute(r"C:\Program Files\Fakturama2\Fakturama.exe")
         
-        for produto in produtos:
+        registro_sucesso = 0
+        status_acao = "FALHOU"
         
-            if not bot.find("cadastrar", matching=0.97, waiting_time=10000):
-                not_found("cadastrar")
-            bot.click()
-                    
+        for produto in produtos:
             
+            if not bot.find("cadastrar", matching=0.97, waiting_time=10000):
+                #possivel erro ao encontrar o botao cadastrar
+                maestro.new_log_entry(
+                    activity_label="ErroBotaoCadastrar",
+                    values={
+                        "registros":str(registro_sucesso),
+                        "status":status_acao
+                    }
+                )
+                not_found("cadastrar")
+            else:
+                bot.click()
+                
+                registro_sucesso += 1
+                status_acao = "SUCESSO"
+                #possivel sucesso ao encontrar o botao cadastrar
+                maestro.new_log_entry(
+                    activity_label="SucessoBotaoCadastrar",
+                    values={
+                        "registros":str(registro_sucesso),
+                        "status":status_acao
+                    }
+                )
+                                
             if not bot.find("item_number", matching=0.97, waiting_time=10000):
                 not_found("item_number")
-            bot.click_relative(113, 10)
+            bot.click_relative(129, 13)
+            
+            
             
             # Preencher os campos com formatação adequada
             bot.paste(produto['item_number'])  # Número do item
@@ -106,7 +130,17 @@ def main():
                 activity_label="PreencheFormulario",
                 values = {
                      "data_hora": datetime.now().strftime("%Y-%m-%d_%H-%M"),
-                     "item_number": produto['item_number']
+                     "item_number": produto['item_number'],
+                     "name": produto['name'],
+                     "category": produto['category'],
+                     "gtin": produto['gtin'],
+                     "supplier_code": produto['supplier_code'],
+                     "description": produto['description'],
+                     "price": price,
+                     "cost": cost,
+                     "allowance": allowance,
+                     "vat": produto['vat'],
+                     "stock": stock  
                 }
             )
             # fim logs
