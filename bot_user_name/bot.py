@@ -1,17 +1,11 @@
 from time import sleep
-# Import for the Web Bot
 from botcity.web import WebBot, Browser, By
 from selenium.webdriver.common.by import By
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.service import Service
-# Importacao do web driver com o ChromeDriverManager
-# from webdriver_manager.chrome import ChromeDriverManager
+
 # Import for integration with BotCity Maestro SDK
 from botcity.maestro import *
 # Disable errors if we are not connected to Maestro
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
-
 
 # using as constants for example only 
 # in a real scenario, this should be passed as parameters or using credentials feature
@@ -33,13 +27,13 @@ def main():
 
         # Configure whether or not to run on headless mode
         bot.headless = False
+        
+         # Uncomment to change the default Browser to Firefox
+        bot.browser = Browser.FIREFOX
 
-        # set WebDriver path
-        service = Service(executable_path=r"geckodriver.exe")
-
-        # create a bot instance
-        bot = webdriver.Firefox(service=service)
-
+        # Uncomment to set the WebDriver path
+        bot.driver_path = r"resources\geckodriver.exe"
+        
         # Opens the BotCity website.
         bot.browse("https://practicetestautomation.com/practice-test-login/")
 
